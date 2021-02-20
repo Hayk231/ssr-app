@@ -6,7 +6,7 @@ const MainContainer = ({children, keywords}) => {
         <>
             <Head>
                 <meta keywords={"nextjs " + keywords}></meta>
-                <title>Next JS App</title>
+                <title>SSR App</title>
             </Head>
                 
             {children}
